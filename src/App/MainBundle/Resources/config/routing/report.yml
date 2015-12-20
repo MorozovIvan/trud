@@ -1,0 +1,29 @@
+report_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Report:index
+
+report_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Report:show
+
+report_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Report:list
+
+report_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Report:edit
+
+report_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Report:edit
+
+report_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Report:remove

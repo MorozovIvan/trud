@@ -1,0 +1,29 @@
+trauma_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Trauma:index
+
+trauma_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Trauma:show
+
+trauma_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Trauma:list
+
+trauma_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Trauma:edit
+
+trauma_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Trauma:edit
+
+trauma_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Trauma:remove

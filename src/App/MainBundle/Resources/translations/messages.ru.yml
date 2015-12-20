@@ -1,0 +1,189 @@
+Address: Адрес
+Bithday: Дата рождения
+Comment: Примечание
+Datefact: Дата фактическая
+Factdate: Дата фактическая
+Date first medical: Дата первичного медосмотра
+Date_first_medical: Дата первичного медосмотра
+Date instruction: Дата инструктажа
+Date_instruction: Дата инструктажа
+Dateplan: Дата планируемая
+Datetrauma: Дата несчастного случая
+Employee: Сотрудник
+Employee list: Реестр сотрудников
+Enterprise: Предприятие
+Enterprise list: Список предприятий
+Equipment: Оборудование
+equipment: ОБОРУДОВАНИЕ
+Equipmentgroup: Группа оборудования
+Equipmentgroup list: Список групп оборудования
+Equipmentsubgroup: Подгруппа оборудования
+Equipmentsubgroup_short: Подгруппа
+Equipmentsubgroup list: Список подгрупп оборудования
+expense: ЗАТРАТЫ
+Expense: Затрата
+Expense list: Список затрат
+Expensekind: Вид затрат
+Expensekind list: Список видов затрат
+Factorynumber: Заводской номер
+Firstname: Имя
+Hoursstart: Часов с начала работы
+Id: Код
+Internalnumber: Внутризаводской номер
+Lastname: Фамилия
+Manufacturer: Изготовитель
+Marriagekind: Семейный статус
+Medicalkind: Вид медосмотра
+Medicalkind list: Список видов медосмотров
+Medicaltype: Характер медосмотра
+Medicaltype list: Список характеров медосмотров
+Middlename: Отчество
+Model: Модель
+Name: Наименование
+Okved: ОКВЭД
+Plandate: Дата план.
+Productiondate: Дата изготовления
+Profession: Профессия
+Profession list: Список профессий
+Professionkind: Вид профессии
+Professionkind list: Список видов профессий
+Registrationnumber: Регистрационный номер
+Registrationtype: Регистрация в органах Ростехнадзора
+Resulttext: Результат
+Sex: Пол
+Startupdate: Дата ввода в эксплуатацию
+Subdivision: Подразделение
+Subdivision list: Список структурных подразделений
+Subdivision_id: Подразделение
+Sum1: Сумма январь
+Sum10: Сумма октябрь
+Sum11: Сумма ноябрь
+Sum12: Сумма декабрь
+Sum2: Сумма февраль
+Sum3: Сумма март
+Sum4: Сумма апрель
+Sum5: Сумма май
+Sum6: Сумма июнь
+Sum7: Сумма июль
+Sum8: Сумма август
+Sum9: Сумма сентябрь
+Year: Год
+Technicalexaminationcause: Причина обследования
+Technicalexaminationkind: Вид обследования
+Technicalexaminationtype: Тип обследования
+Traumacause: Причина происшествия
+Traumacause list: Список причин происшествий
+Traumakind: Вид происшествия
+Traumakind list: Список видов происшествий
+Traumareport: Акт Н-1
+Eear: Год
+Actions: Действия
+Users: Пользователи
+User: Пользователь
+edit: редактировать
+show: просмотр
+Update: Сохранить
+Delete: Удалить
+Create: Создать
+Back to the list: Вернуться к списку
+Create a new entry: Добавить новую запись
+Show: Просмотр
+Edit: Редактировать
+Username: Имя пользователя
+Enabled: Включен
+Salt: Соль
+Password: Пароль
+Last login: Время последнего захода
+Lastlogin: Время последнего захода
+Locked: Заблокирован
+Expired: Истекло
+Expires at: Истекает в
+Usersubdivisions: Подразделение пользователя
+ROLE_SUPER_ADMIN: Суперадминистратор
+ROLE_ADMIN: Администратор
+ROLE_USER: Пользователь
+Roles: Роли
+Jan: Янв
+Feb: Фев
+Mar: Мар
+Apr: Апр
+May: Май
+Jun: Июн
+Jul: Июл
+Aug: Авг
+Sep: Сен
+Okt: Окт
+Nov: Ноя
+Dec: Дек
+LFMname: Ф.И.О.
+User list: Список пользователей
+User creation: Создание пользователя
+User edit: Редактирования пользователя
+Enterprise edit: Редактирование предприятния
+Enterprise creation: Создание предприятния
+Enterprise: Предприятие
+Subdivision edit: Редактирование структурного подразделения
+Subdivision creation: Создание структурного подразделения
+Profession edit: Редактирование профессии
+Profession creation: Создание профессии
+Professionkind creation: Создание вида профессии
+Professionkind edit: Редактирование вида профессии
+Medicalkind creation: Создание вида медосмотра
+Medicalkind edit: Редактирование вида медосмотра
+Medicaltype edit: Редактирование характера медосмотра
+Medicaltype creation: Создание характера медосмотра
+Traumakind edit: Редактирование вида происшествия
+Traumakind creation: Создание вида происшествия
+Traumacause edit: Редактирование причины происшествия
+Traumacause creation: Создание причины происшествия
+Equipmentgroup edit: Редактирование группы оборудования
+Equipmentgroup creation: Создание группы оборудования
+Equipmentsubgroup edit: Редактирование подгруппы оборудования
+Equipmentsubgroup creation: Создание подгруппы оборудования
+Expensekind edit: Редактирование вида затрат
+Expensekind creation: Создание вида затрат
+Employee creation: Создание сотрудника
+Employee edit: Редактирование сотрудника
+Medical: График медосмотров
+Medical list: Графики медосмотров
+Medical edit: Редактирование графика медосмотров
+Medical creation: Создание графика медосмотров
+Trauma list: Лист травматизма
+Trauma: Травматизм
+Trauma edit: Редактирование листа травматизма
+Trauma creation: Создание листа травматизма
+Equipment list: Реестр оборудования
+Technicalexamination creation: Создание технического освидетельствования
+Technicalexamination edit: Редактирование технического освидетельствования
+Technicalexamination list: Технические освидетельствования
+Technicalexamination: Техническиое освидетельствование
+Expense edit: Редактирование затраты
+Expense creation: Создание затраты
+Expiresat: Истекает
+Left date: С
+Right date: По
+Equipment creation: Создание оборудования
+Equipment edit: Редактирование оборудования
+Life: Нормативный срок службы (лет)
+Id: Код
+Report: Отчет
+Print: Печать
+Report list: Список отчетов
+Report edit: Редактирование отчета
+Report creation: Создание отчета
+REPORTS: ОТЧЕТЫ
+Params: Параметры
+CategoryReport list: Категории отчетов
+CategoryReport: Категория отчетов
+Categoryreport: Категория отчета
+CategoryReport edit: Редактирование категории отчетов
+CategoryReport creation: Создание категории отчетов
+Technicalexaminationkind list: Виды обследований
+Technicalexaminationkind creation: Создание вида обследования
+Technicalexaminationkind edit: Редактирование вида обследования
+Technicalexaminationcause list: Причины обследований
+Technicalexaminationcause creation: Создание причины обследования
+Technicalexaminationcause edit: Редактирование причины обследования
+Technicalexaminationtype list: Типы обследований
+Technicalexaminationtype creation: Создание типа обследования
+Technicalexaminationtype edit: Редактирование типа обследования

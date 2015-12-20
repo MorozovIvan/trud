@@ -1,0 +1,29 @@
+traumakind_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Traumakind:index
+
+traumakind_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Traumakind:show
+
+traumakind_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Traumakind:list
+
+traumakind_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Traumakind:edit
+
+traumakind_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Traumakind:edit
+
+traumakind_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Traumakind:remove

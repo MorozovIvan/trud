@@ -1,0 +1,31 @@
+{% extends 'MainBundle:CRUD:edit.html.twig' %}
+
+{% block submenu %}
+    {{ include('MainBundle:Submenu:Employee.html.twig') }}
+{% endblock %}
+
+{% block breadcrumbs %}
+    {% if isNew %}
+        {{ app.breadcrumbs.prepend('Добавление пользователя') }}
+    {% else %}
+        {{ app.breadcrumbs.prepend('User edit'|trans) }}
+    {% endif %}
+    {{ app.breadcrumbs.prepend('Пользователи', path('user_list')) }}
+    {{ parent() }}
+{% endblock %}
+
+{% block panel_title %}
+    {% if isNew %}
+        {% trans %}Trauma creation{% endtrans %}
+    {% else %}
+        {% trans %}Trauma edit{% endtrans %}
+    {% endif %}
+{% endblock %}
+
+{% block actions %}
+    {% include 'MainBundle:CRUD:form_actions.html.twig' with {
+        'is_new': isNew,
+        'route_list': path('trauma_list'),
+        'route_remove' : not isNew ? path('trauma_remove', {'id': entity.id}) : ''
+    } %}
+{% endblock %}

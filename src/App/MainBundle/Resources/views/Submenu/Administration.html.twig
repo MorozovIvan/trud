@@ -1,0 +1,55 @@
+<div class="b-left-menu">
+    <ul>
+        <li {% if get_controller_name() == 'user' %}class="active"{% endif %}>
+            <a href="{{ path('user_list') }}"><p>Пользователи</p></a>
+        </li>
+        <li {% if get_controller_name() == 'enterprise' %}class="active"{% endif %}>
+            <a href="{{ path('enterprise_list') }}"><p>Предприятия</p></a>
+        </li>
+        <li {% if get_controller_name() == 'subdivision' %}class="active"{% endif %}>
+            <a href="{{ path('subdivision_list') }}"><p>Структ. подразделения</p></a>
+        </li>
+        <li {% if get_controller_name() == 'profession' %}class="active"{% endif %}>
+            <a href="{{ path('profession_list') }}"><p>Профессии</p></a>
+        </li>
+        <li {% if get_controller_name() == 'professionkind' %}class="active"{% endif %}>
+            <a href="{{ path('professionkind_list') }}"><p>Виды профессий</p></a>
+        </li>
+        <li {% if get_controller_name() == 'medicalkind' %}class="active"{% endif %}>
+            <a href="{{ path('medicalkind_list') }}"><p>Виды медосмотров</p></a>
+        </li>
+        <li {% if get_controller_name() == 'medicaltype' %}class="active"{% endif %}>
+            <a href="{{ path('medicaltype_list') }}"><p>Характер медосмотра</p></a>
+        </li>
+        <li {% if get_controller_name() == 'traumakind' %}class="active"{% endif %}>
+            <a href="{{ path('traumakind_list') }}"><p>Виды происшествий</p></a>
+        </li>
+        <li {% if get_controller_name() == 'traumacause' %}class="active"{% endif %}>
+            <a href="{{ path('traumacause_list') }}"><p>Причины несчастных случаев</p></a>
+        </li>
+        <li {% if get_controller_name() == 'equipmentgroup' %}class="active"{% endif %}>
+            <a href="{{ path('equipmentgroup_list') }}"><p>Группы оборудования</p></a>
+        </li>
+        <li {% if get_controller_name() == 'equipmentsubgroup' %}class="active"{% endif %}>
+            <a href="{{ path('equipmentsubgroup_list') }}"><p>Подгруппы оборудования</p></a>
+        </li>
+		<li {% if get_controller_name() == 'expensekind' %}class="active"{% endif %}>
+			<a href="{{ path('expensekind_list') }}"><p>Виды затрат</p></a>
+		</li>
+        <li {% if get_controller_name() == 'categoryreport' %}class="active"{% endif %}>
+            <a href="{{ path('categoryreport_list') }}"><p>Категории отчетов</p></a>
+        </li>
+        <li {% if get_controller_name() == 'report' %}class="active"{% endif %}>
+            <a href="{{ path('report_list') }}"><p>Отчеты</p></a>
+        </li>
+        <li {% if get_controller_name() == 'technicalexaminationkind' %}class="active"{% endif %}>
+            <a href="{{ path('technicalexaminationkind_list') }}"><p>Виды обследований</p></a>
+        </li>
+        <li {% if get_controller_name() == 'technicalexaminationcause' %}class="active"{% endif %}>
+            <a href="{{ path('technicalexaminationcause_list') }}"><p>Причины обследований</p></a>
+        </li>
+        <li {% if get_controller_name() == 'technicalexaminationtype' %}class="active"{% endif %}>
+            <a href="{{ path('technicalexaminationtype_list') }}"><p>Типы обследований</p></a>
+        </li>
+    </ul>
+</div>

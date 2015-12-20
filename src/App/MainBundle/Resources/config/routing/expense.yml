@@ -1,0 +1,29 @@
+expense_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Expense:index
+
+expense_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Expense:show
+
+expense_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Expense:list
+
+expense_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Expense:edit
+
+expense_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Expense:edit
+
+expense_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Expense:remove

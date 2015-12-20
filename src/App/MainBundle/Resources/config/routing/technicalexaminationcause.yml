@@ -1,0 +1,29 @@
+technicalexaminationcause_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:index
+
+technicalexaminationcause_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:show
+
+technicalexaminationcause_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:list
+
+technicalexaminationcause_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:edit
+
+technicalexaminationcause_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:edit
+
+technicalexaminationcause_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Technicalexaminationcause:remove

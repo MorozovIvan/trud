@@ -1,0 +1,29 @@
+user_index:
+    path: /
+    defaults:
+        _controller: MainBundle:User:index
+
+user_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:User:show
+
+user_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:User:list
+
+user_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:User:edit
+
+user_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:User:edit
+
+user_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:User:remove

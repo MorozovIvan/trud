@@ -1,0 +1,29 @@
+expensekind_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Expensekind:index
+
+expensekind_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Expensekind:show
+
+expensekind_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Expensekind:list
+
+expensekind_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Expensekind:edit
+
+expensekind_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Expensekind:edit
+
+expensekind_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Expensekind:remove

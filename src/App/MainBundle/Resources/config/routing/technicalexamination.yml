@@ -1,0 +1,29 @@
+technicalexamination_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Technicalexamination:index
+
+technicalexamination_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Technicalexamination:show
+
+technicalexamination_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Technicalexamination:list
+
+technicalexamination_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Technicalexamination:edit
+
+technicalexamination_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Technicalexamination:edit
+
+technicalexamination_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Technicalexamination:remove

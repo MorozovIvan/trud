@@ -1,0 +1,29 @@
+enterprise_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Enterprise:index
+
+enterprise_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Enterprise:show
+
+enterprise_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Enterprise:list
+
+enterprise_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Enterprise:edit
+
+enterprise_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Enterprise:edit
+
+enterprise_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Enterprise:remove

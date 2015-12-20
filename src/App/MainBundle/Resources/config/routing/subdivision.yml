@@ -1,0 +1,29 @@
+subdivision_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Subdivision:index
+
+subdivision_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Subdivision:show
+
+subdivision_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Subdivision:list
+
+subdivision_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Subdivision:edit
+
+subdivision_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Subdivision:edit
+
+subdivision_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Subdivision:remove

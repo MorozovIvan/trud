@@ -1,0 +1,29 @@
+categoryreport_index:
+    path: /
+    defaults:
+        _controller: MainBundle:CategoryReport:index
+
+categoryreport_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:CategoryReport:show
+
+categoryreport_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:CategoryReport:list
+
+categoryreport_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:CategoryReport:edit
+
+categoryreport_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:CategoryReport:edit
+
+categoryreport_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:CategoryReport:remove

@@ -1,0 +1,58 @@
+{% extends 'MainBundle:CRUD:list.html.twig' %}
+
+{% block submenu %}
+    {{ include('MainBundle:Submenu:Employee.html.twig') }}
+{% endblock %}
+
+{% block breadcrumbs %}
+    {{ app.breadcrumbs.prepend('Список', path('admin_user_list')) }}
+    {{ app.breadcrumbs.prepend('Пользователи', path('admin_user_list')) }}
+    {{ parent() }}
+{% endblock %}
+
+{% block content_title %}Список графиков медосмотров{% endblock %}
+
+{% block content_options %}
+    <a href="{{ path('medical_new') }}" title="Добавить" id="add-record">
+        {% trans %}Create a new entry{% endtrans %}
+    </a>
+{% endblock %}
+
+{% block thead %}
+    <tr>
+        <th class="sorted">{{ knp_pagination_sortable(pagination, 'id'|trans, 'm.id') }}</th>
+        <th class="sorted">{{ knp_pagination_sortable(pagination, 'LFMname'|trans, 'e.lastname') }}</th>
+        <th class="sorted">{{ knp_pagination_sortable(pagination, 'Enterprise'|trans, 'enterp.name') }}</th>
+        <th class="sorted">{{ knp_pagination_sortable(pagination, 'Comment'|trans, 'm.comment') }}</th>
+        <th>{% trans %}Actions{% endtrans %}</th>
+    </tr>
+{% endblock %}
+
+{% block tbody %}
+    {% for item in pagination %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td><a href="{{ path('medical_show', { 'id': item.id }) }}">{{ item.employee }}</a></td>
+            <td>
+                {% if item.enterprise is defined %}
+                    <ul>
+                        {% for enterprise in item.enterprise %}
+                            <li>{{ enterprise.name }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </td>
+            <td>{{ item.comment }}</td>
+            <td>
+                <ul>
+                    <li>
+                        <a class="show-action" href="{{ path('medical_edit', { 'id': item.id }) }}" title="{% trans %}Show{% endtrans %}"></a>
+                    </li>
+                    <li>
+                        <a class="edit-action" href="{{ path('medical_edit', { 'id': item.id }) }}" title="{% trans %}Edit{% endtrans %}"></a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    {% endfor %}
+{% endblock %}

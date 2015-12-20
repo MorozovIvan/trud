@@ -1,0 +1,105 @@
+default:
+    pattern:  /
+    defaults: { _controller: MainBundle:Default:index }
+
+default_ajax:
+    pattern:  /ajax
+    defaults: { _controller: "MainBundle:Default:ajax" }
+
+_reports:
+    pattern:  /reportlist/{Categoryid}
+    defaults: { _controller: "MainBundle:Report:categoryList", Categoryid: null }
+    requirements:
+        id:  \d+
+
+_technicalexaminationtype:
+    prefix:   /technicalexaminationtype
+    resource: routing/technicalexaminationtype.yml
+
+_technicalexaminationcause:
+    prefix:   /technicalexaminationcause
+    resource: routing/technicalexaminationcause.yml
+
+_technicalexaminationkind:
+    prefix:   /technicalexaminationkind
+    resource: routing/technicalexaminationkind.yml
+
+_report:
+    prefix:   /report
+    resource: routing/report.yml
+
+_categoryreport:
+    prefix:   /categoryreport
+    resource: routing/categoryreport.yml
+
+_medical:
+    prefix:   /medical
+    resource: routing/medical.yml
+
+_traumakind:
+    prefix:   /traumakind
+    resource: routing/traumakind.yml
+
+_traumacause:
+    prefix:   /traumacause
+    resource: routing/traumacause.yml
+
+_employee:
+    prefix:   /employee
+    resource: routing/employee.yml
+
+_equipmentsubgroup:
+    prefix:   /equipmentsubgroup
+    resource: routing/equipmentsubgroup.yml
+
+_equipmentgroup:
+    prefix:   /equipmentgroup
+    resource: routing/equipmentgroup.yml
+
+_medicalkind: #вид медосмотра
+    prefix:   /medicalkind
+    resource: routing/medicalkind.yml
+
+_professionkind:
+    prefix:   /professionkind
+    resource: routing/professionkind.yml
+
+_profession:
+    prefix:   /profession
+    resource: routing/profession.yml
+
+_technicalexamination:
+    prefix:   /technicalexamination
+    resource: routing/technicalexamination.yml
+
+_equipment:
+    prefix:   /equipment
+    resource: routing/equipment.yml
+
+_trauma:
+    prefix:   /trauma
+    resource: routing/trauma.yml
+
+_medicaltype:
+    prefix:   /medicaltype
+    resource: routing/medicaltype.yml
+
+_subdivision:
+    prefix:   /subdivision
+    resource: routing/subdivision.yml
+
+_enterprise:
+    prefix:   /enterprise
+    resource: routing/enterprise.yml
+
+_expense:
+    prefix:   /expense
+    resource: routing/expense.yml
+
+_expensekind:
+    prefix:   /expensekind
+    resource: routing/expensekind.yml
+
+_user:
+    prefix:   /user
+    resource: routing/user.yml

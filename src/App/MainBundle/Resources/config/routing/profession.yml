@@ -1,0 +1,29 @@
+profession_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Profession:index
+
+profession_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Profession:show
+
+profession_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Profession:list
+
+profession_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Profession:edit
+
+profession_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Profession:edit
+
+profession_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Profession:remove

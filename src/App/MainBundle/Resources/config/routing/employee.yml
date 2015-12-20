@@ -1,0 +1,29 @@
+employee_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Employee:index
+
+employee_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Employee:show
+
+employee_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Employee:list
+
+employee_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Employee:edit
+
+employee_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Employee:edit
+
+employee_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Employee:remove

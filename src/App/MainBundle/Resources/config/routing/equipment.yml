@@ -1,0 +1,29 @@
+equipment_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Equipment:index
+
+equipment_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Equipment:show
+
+equipment_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Equipment:list
+
+equipment_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Equipment:edit
+
+equipment_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Equipment:edit
+
+equipment_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Equipment:remove

@@ -1,0 +1,29 @@
+technicalexaminationkind_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:index
+
+technicalexaminationkind_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:show
+
+technicalexaminationkind_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:list
+
+technicalexaminationkind_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:edit
+
+technicalexaminationkind_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:edit
+
+technicalexaminationkind_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Technicalexaminationkind:remove

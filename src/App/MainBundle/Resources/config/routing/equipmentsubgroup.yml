@@ -1,0 +1,29 @@
+equipmentsubgroup_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:index
+
+equipmentsubgroup_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:show
+
+equipmentsubgroup_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:list
+
+equipmentsubgroup_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:edit
+
+equipmentsubgroup_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:edit
+
+equipmentsubgroup_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Equipmentsubgroup:remove

@@ -1,0 +1,29 @@
+traumacause_index:
+    path: /
+    defaults:
+        _controller: MainBundle:Traumacause:index
+
+traumacause_show:
+    path: /{id}/show
+    defaults:
+        _controller: MainBundle:Traumacause:show
+
+traumacause_list:
+    path: /list
+    defaults:
+        _controller: MainBundle:Traumacause:list
+
+traumacause_new:
+    path: /new
+    defaults:
+        _controller: MainBundle:Traumacause:edit
+
+traumacause_edit:
+    path: /{id}/edit
+    defaults:
+        _controller: MainBundle:Traumacause:edit
+
+traumacause_remove:
+    path: /{id}/remove
+    defaults:
+        _controller: MainBundle:Traumacause:remove
